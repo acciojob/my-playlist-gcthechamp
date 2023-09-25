@@ -1,1 +1,75 @@
 /*  your css code here. If applicable */
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	background-color: #cccccc;
+}
+#playlist>ul
+{
+	list-style-type: none;
+	font-family: Arial;
+}
+#playlist>ul>li>a
+{
+	text-decoration-line: none;
+}
+#playlist>ul>li>a:link
+{
+	color: black;
+}
+#playlist
+{
+	background-color: white;
+	margin: 15px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	border: 2px solid black;
+	border-radius: 6px;
+}
+#playlist>ul>li
+{
+	margin-left:-15px;
+	margin-top:5px;
+}
+.heading
+{
+	font-family: Arial;
+	text-align: center;
+}
+#now_playing
+{
+	margin-top: -8px;
+}
+#playbox
+{
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 6px;
+	width: 554px;
+	height:564px;
+	margin-left: 50px; 
+	padding-top: 10px;
+}
+.player_one
+{
+	width: 527px;
+	margin-left: 12px;
+}
+#mp3_songs
+{
+	margin-top: 0px;
+}
+.player_two
+{
+	width: 95%;
+	margin-left: 14px;
+}
+#playbox>p
+{
+	margin-left: 14px;
+	font-weight: bold;
+	font-family: Arial;
+}
